@@ -1,0 +1,120 @@
+Technical Summary  
+The Berard Framework: A Resonance‑Field Extension of Mass–Energy Equivalence  
+Author: Vernon Arthur Berard
+Date: February 2026
+
+The Berard Framework introduces a resonance‑field extension of classical mass–energy equivalence. A real scalar field 
+𝜙
+(
+𝑥
+)
+ defines a dimensionless Resonance Invariant
+
+𝑆
+0
+=
+𝜙
+/
+𝜙
+0
+,
+and matter couples to this field through a resonance‑dependent effective mass. This yields the Einstein–Berard relation
+
+𝐸
+=
+𝑚
+(
+𝐵
+𝐶
+2
+)
+𝑆
+0
+−
+2
+,
+where 
+𝐵
+𝐶
+=
+1.054
+ is a dimensionless scaling factor.
+
+A quadratic potential with curvature set by a small‑oscillation frequency of 
+𝑓
+0
+=
+0.10
+ 
+H
+z
+ defines a Stability Well governing vacuum resonance dynamics. Linearized perturbations around the vacuum produce a measurable low‑frequency mode at the same frequency.
+
+The effective field theory leads to three principal results:
+
+Modified inertia:  
+The effective mass 
+𝑚
+e
+f
+f
+=
+𝑚
+ 
+𝐵
+𝐶
+2
+𝑆
+0
+−
+2
+ alters inertial response without modifying gravitational dynamics.
+
+Hubble‑parameter correction:  
+In a homogeneous vacuum, the matter energy density rescales as
+
+𝜌
+e
+f
+f
+=
+𝜌
+ 
+𝐵
+𝐶
+2
+,
+giving a corrected expansion rate
+
+𝐻
+𝐵
+=
+𝐻
+o
+b
+s
+/
+𝐵
+𝐶
+.
+Natural galactic acceleration scale:  
+The modified inertial mass yields
+
+𝑎
+𝐵
+=
+𝑎
+N
+e
+w
+t
+o
+n
+/
+𝐵
+𝐶
+2
+,
+providing a resonance‑based explanation for flat rotation curves without dark matter.
+
+The framework offers a unified, testable alternative to dark matter and dark energy, grounded in a minimal scalar‑field model with clear observational signatures.

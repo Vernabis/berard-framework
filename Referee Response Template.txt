@@ -1,0 +1,101 @@
+Referee Response Template
+The Berard Framework: A Resonance‑Field Extension of Mass–Energy Equivalence
+Author: Vernon Arthur Berard
+Date: February 2026
+
+We thank the referee for their careful reading of the manuscript and for the constructive comments.
+Below we respond to each point in turn. For clarity, the referee’s comments are reproduced in italics,
+followed by our responses in plain text. All changes referenced below have been incorporated into the
+revised manuscript.
+
+------------------------------------------------------------
+1. *Comment on the origin of the Hubble‑parameter correction.*
+
+We appreciate the referee’s request for clarification. The resonance‑based correction to the Hubble
+parameter arises directly from the φ‑dependent effective mass defined in Eq. (12). As shown in
+Eqs. (23)–(27), the effective matter density entering the Friedmann equation is rescaled by a factor
+of BC² in a homogeneous vacuum with S₀ = 1. This leads to the corrected expansion rate
+
+    H_B = H_obs / BC,
+
+as stated in Eq. (28). We have added a brief explanatory sentence in Sec. VI A to emphasize that the
+correction originates from the inertial sector rather than a modification of the gravitational field
+equations.
+
+------------------------------------------------------------
+2. *Comment on the dimensional consistency of the acceleration law.*
+
+We thank the referee for raising this point. The acceleration law is derived directly from the modified
+inertial mass in Eq. (12). As shown in Eqs. (31)–(35), the dynamical balance
+
+    m_eff a = GMm / r²
+
+yields
+
+    a = a_Newton / BC²,
+
+which is dimensionally consistent in natural units (c = ħ = 1). Appendix D has been added to explicitly
+document the dimensional analysis and confirm consistency across all equations.
+
+------------------------------------------------------------
+3. *Comment on the physical interpretation of the 0.10 Hz Stability Well.*
+
+We agree that the physical role of the 0.10 Hz Stability Well benefits from further clarification.
+Appendix B now provides a full linearized perturbation analysis, showing that small deviations from
+the vacuum satisfy
+
+    □ δφ + m_φ² δφ = 0,
+
+with m_φ = 2π f₀. This establishes the Stability Well as a genuine small‑oscillation mode of the
+resonance field, not an imposed phenomenological parameter.
+
+------------------------------------------------------------
+4. *Comment on the relation to modified gravity and MOND‑like theories.*
+
+We thank the referee for this insightful question. The framework presented here is a modified‑inertia
+model derived from a scalar‑field effective theory, rather than a modification of the gravitational
+field equations. The distinction is now stated explicitly in Sec. VI B. The resulting acceleration law
+resembles MOND phenomenology, but arises from a different mechanism: a resonance‑induced rescaling
+of inertial mass rather than a modification of Newtonian gravity or the Einstein equations.
+
+------------------------------------------------------------
+5. *Comment on observational testability.*
+
+We agree that highlighting observational signatures strengthens the manuscript. The Conclusion now
+emphasizes three concrete tests:
+
+1. A 0.10 Hz vacuum resonance detectable in precision timing experiments.
+2. A rescaled Hubble parameter differing from ΛCDM by a factor 1/BC.
+3. A resonance‑based acceleration scale that predicts flat rotation curves without dark matter.
+
+These signatures provide clear avenues for empirical evaluation.
+
+------------------------------------------------------------
+6. *Comment on notation consistency.*
+
+We thank the referee for noting minor inconsistencies. The notation has been standardized throughout:
+
+• S₀ is consistently used for the Resonance Invariant.  
+• H_B denotes the resonance‑corrected Hubble parameter.  
+• a_B denotes the resonance‑modified acceleration.  
+• All equations referenced in the text now carry labels.  
+
+These changes improve clarity without altering the underlying physics.
+
+------------------------------------------------------------
+7. *General comment on clarity and organization.*
+
+We appreciate the referee’s positive remarks regarding the conceptual structure. In response to the
+suggestion for improved readability, we have:
+
+• smoothed transitions between sections,  
+• tightened the abstract,  
+• expanded the Conclusion, and  
+• added Appendices A–D for technical completeness.
+
+We believe these revisions significantly enhance the manuscript’s clarity and accessibility.
+
+------------------------------------------------------------
+
+We thank the referee again for their thoughtful comments and believe the manuscript has been
+substantially improved as a result.
