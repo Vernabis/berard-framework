@@ -1,0 +1,81 @@
+RELEASE NOTES — BERARD FRAMEWORK
+
+This document summarizes major updates and structural milestones in the development of the Berard Framework repository. It is not a detailed changelog, but a high‑level record of meaningful releases and transitions.
+
+SECTION: Initial Consolidation (December 2025)
+
+Core concepts of the Berard Framework unified into a single manuscript structure
+
+Early figure prototypes created for stability wells, oscillations, and effective mass scaling
+
+Repository initialized with basic manuscript files and exploratory code
+
+Beginning of the December–February rapid development phase
+
+This marks the point where the project shifted from scattered notes to a coherent research effort.
+
+SECTION: Figure Pipeline Establishment (Late December 2025)
+
+Colab‑based Python workflow created for reproducible figure generation
+
+Multi‑panel figures standardized into APS‑ready vector PDFs
+
+Initial separation of manuscript content from figure code
+
+Early directory structure established
+
+This release laid the foundation for reproducibility and modularity.
+
+SECTION: Structural Overhaul (January 2026)
+
+Full modular architecture implemented
+
+figures/ directory populated with final‑format PDFs
+
+figures.tex created to centralize all figure environments and captions
+
+Manuscript cleaned and reorganized for clarity
+
+Notes directory introduced for auxiliary documentation
+
+This release transformed the repository into a clean, maintainable research package.
+
+SECTION: Documentation Expansion (Late January 2026)
+
+Project history, methodology note, design philosophy, and technical workflow added
+
+Contact information added for collaborator accessibility
+
+Repository navigation improved through consistent naming and directory structure
+
+Internal logic of the project made explicit through plain‑text documentation
+
+This release improved transparency and long‑term usability.
+
+SECTION: Pre‑Submission Stabilization (February 2026)
+
+Final figure suite regenerated and verified
+
+Manuscript synchronized with all figures and captions
+
+Notes folder expanded with roadmap and architecture overview
+
+Repository validated for intuitive navigation and reproducibility
+
+This release represents the project in its current, submission‑ready state.
+
+SECTION: Future Releases
+
+Future updates may include:
+
+extended parameter studies
+
+additional diagnostics or appendices
+
+public‑facing documentation
+
+tutorial notebooks
+
+revisions based on peer or referee feedback
+
+These will be added as the project evolves.
