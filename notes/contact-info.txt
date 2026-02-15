@@ -1,5 +1,7 @@
 Vernon Arthur Berard
 Email: vernabis33.3@gmail.com
 
+https://github.com/Vernabis/berard-framework
+
 This repository accompanies the Berard Framework manuscript and its figure suite.
 For questions, collaboration inquiries, or clarification regarding the workflow, figures, or manuscript structure, please reach out via the email above.
