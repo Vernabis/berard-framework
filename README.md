@@ -213,3 +213,9 @@ n
 and defines a resonance acceleration scale:
 
 𝑎
+## 📊 Figure Workflow (APS/PRD‑Ready)
+
+This repository uses a clean, modular, and fully reproducible workflow for generating, organizing, and integrating figures into the Berard Framework manuscript. All figures are produced as vector‑quality PDFs suitable for PRD/APS submission.
+
+### 📁 Directory Structure
+
