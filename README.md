@@ -219,3 +219,74 @@ This repository uses a clean, modular, and fully reproducible workflow for gener
 
 ### 📁 Directory Structure
 
+berard-framework/
+│
+├── berard-framework.tex        # Main RevTeX manuscript
+├── figures.tex                 # All LaTeX figure blocks (included via \input{})
+│
+└── figures/                    # All figure PDFs live here
+├── fig1_combined.pdf
+├── fig2_effective_mass.pdf
+├── fig3_hubble_rescaling.pdf
+├── fig4_combined.pdf
+└── fig5_framework_diagram.pdf
+
+
+### 🧪 Figure Generation (Python → Colab)
+
+All figures are generated using a Colab‑ready Python script that produces APS‑style PDFs.
+
+Workflow:
+1. Open the Colab notebook.
+2. Run the figure‑generation script.
+3. PDFs are saved automatically into `/content/figures_aps/`.
+4. Download the PDFs and place them into the local `figures/` directory.
+
+This ensures:
+- reproducibility  
+- consistent styling  
+- vector‑quality output  
+- no local environment issues  
+
+### 🧩 Multi‑Panel Figures
+
+Some figures (e.g., Figure 1 and Figure 4) are assembled as multi‑panel PDFs directly in Python.  
+This guarantees consistent alignment, panel labeling (A), (B), etc., and APS‑style formatting.
+
+### 📝 Captions and LaTeX Integration
+
+All figure captions and LaTeX `figure` environments are stored in:
+
+figures.tex
+
+This file is included in the main manuscript via:
+
+```latex
+\input{figures.tex}
+This keeps the main .tex file clean and ensures that all figures and captions remain synchronized across all versions of the manuscript.
+
+🔁 Updating Figures
+To update a figure:
+
+Regenerate the PDF in Colab.
+
+Replace the corresponding file in figures/.
+
+Recompile the manuscript.
+
+No changes to berard-framework.tex are required.
+
+📦 Submission‑Ready
+For PRD/arXiv submission, include:
+
+berard-framework.tex
+
+figures.tex
+
+the entire figures/ directory
+
+bibliography files
+
+RevTeX will automatically locate and embed all figures.
+
+This workflow ensures that all figures remain consistent, reproducible, and publication‑ready throughout the development of the Berard Framework manuscript.
