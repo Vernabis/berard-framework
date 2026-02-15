@@ -1,0 +1,122 @@
+ARCHITECTURE OVERVIEW — BERARD FRAMEWORK
+
+This document provides a high‑level overview of the repository architecture for the Berard Framework project. It describes the purpose of each major directory, the relationships between components, and the design logic that keeps the project coherent and maintainable.
+
+SECTION: Top‑Level Structure
+
+The repository is organized into a small number of clearly defined directories. Each directory has a single responsibility, and the boundaries between components are intentional. The top‑level layout is:
+
+manuscript directory
+
+figures directory
+
+notes directory
+
+code or notebooks directory (if present)
+
+auxiliary files such as bibliography and RevTeX configuration
+
+This structure keeps the scientific content, figures, documentation, and code cleanly separated.
+
+SECTION: Manuscript Layer
+
+The manuscript layer contains the RevTeX source files for the Berard Framework paper. Its responsibilities include:
+
+scientific narrative
+
+mathematical derivations
+
+definitions and notation
+
+references and citations
+
+The manuscript does not contain any figure code or raw image files. It remains focused solely on the physics and the written exposition.
+
+SECTION: Figure Layer
+
+The figure layer consists of two components:
+
+The figures/ directory, which stores final, publication‑ready PDF figures.
+
+The figures.tex file, which contains all figure environments and captions.
+
+The manuscript includes figures only through \input{figures.tex}.
+This keeps the main .tex file clean and ensures that figure logic is centralized.
+
+SECTION: Code and Generation Layer
+
+All figure generation is handled by a Colab‑based Python workflow. This layer is responsible for:
+
+numerical calculations
+
+plotting and visualization
+
+exporting APS‑ready vector PDFs
+
+The code layer does not interact directly with the manuscript. Its only output is the set of PDFs placed into the figures/ directory.
+
+SECTION: Documentation Layer
+
+The notes/ directory contains human‑readable auxiliary documents that support the project. These include:
+
+project history
+
+methodology note
+
+design philosophy
+
+technical workflow
+
+contact information
+
+roadmap
+
+architecture overview (this file)
+
+These documents provide context, provenance, and long‑term maintainability without cluttering the manuscript or code.
+
+SECTION: Separation of Responsibilities
+
+The architecture is built around strict separation:
+
+Manuscript: scientific content
+
+Figures: final outputs
+
+Code: generation logic
+
+Notes: human context and documentation
+
+This separation prevents accidental cross‑dependencies and keeps the project stable during revisions.
+
+SECTION: Data Flow
+
+The data flow through the project is linear and intentional:
+
+Code generates figures in a controlled environment.
+
+Figures are exported as PDFs into the figures/ directory.
+
+figures.tex references those PDFs.
+
+The manuscript includes figures.tex.
+
+Notes document the process but do not affect the manuscript or figures.
+
+This one‑directional flow ensures reproducibility and prevents circular dependencies.
+
+SECTION: Long‑Term Maintainability
+
+The architecture is designed to remain stable over time. Key features include:
+
+minimal external dependencies
+
+plain‑text documentation
+
+modular directory structure
+
+reproducible figure generation
+
+clear boundaries between components
+
+This ensures that future contributors — or future versions of the author — can understand and extend the project without reconstructing the original development context.
