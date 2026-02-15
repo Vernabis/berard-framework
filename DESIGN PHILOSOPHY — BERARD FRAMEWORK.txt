@@ -1,0 +1,75 @@
+DESIGN PHILOSOPHY — BERARD FRAMEWORK
+
+This document outlines the guiding principles behind the structure, workflow, and presentation of the Berard Framework project. These principles shaped the repository during its rapid development phase and continue to inform its long‑term evolution.
+
+SECTION: Clarity Over Complexity
+
+The project prioritizes clarity in both scientific content and repository structure.
+Every file, directory, and workflow is designed to be immediately understandable without requiring prior familiarity with the project.
+This philosophy reduces cognitive load and allows contributors to focus on the physics rather than the infrastructure.
+
+SECTION: Modularity as a Foundation
+
+The repository is built on a modular architecture.
+Each component has a single, well‑defined responsibility:
+
+Manuscript files contain only scientific narrative and equations.
+
+Figures are stored as final PDFs in a dedicated directory.
+
+Figure environments and captions live in a standalone LaTeX file.
+
+Notes and auxiliary documentation are kept separate from the manuscript.
+
+Code for generating figures is isolated from all LaTeX content.
+
+This modularity ensures that changes in one area do not unintentionally affect others.
+
+SECTION: Reproducibility as a Core Value
+
+Reproducibility is central to the project’s design.
+All figures are generated programmatically using a controlled Colab environment, ensuring that results can be regenerated consistently across machines and over time.
+No manual figure editing or local‑environment assumptions are permitted.
+
+This approach supports transparency, longevity, and scientific integrity.
+
+SECTION: Minimalism With Purpose
+
+The repository avoids unnecessary files, redundant documentation, and clutter.
+Only final, publication‑ready materials are included in the main directories.
+Supporting materials are kept in the notes/ folder, where they remain accessible without interfering with the manuscript workflow.
+
+This minimalism is intentional: it keeps the project lightweight and easy to navigate.
+
+SECTION: Human‑Readable Documentation
+
+All documentation is written in plain, accessible language.
+The goal is to make the project understandable not only to collaborators, but also to future versions of the author.
+Notes are kept in simple text or Markdown to ensure long‑term readability and compatibility.
+
+SECTION: Stability Through Separation
+
+The project maintains a strict separation between:
+
+conceptual development
+
+mathematical derivation
+
+figure generation
+
+manuscript assembly
+
+auxiliary notes
+
+This separation prevents cross‑contamination between layers of the project and preserves stability during revisions.
+
+SECTION: Future‑Proofing
+
+The design philosophy emphasizes longevity.
+By avoiding fragile dependencies, undocumented scripts, or opaque workflows, the project remains maintainable over time.
+The repository is structured so that future contributors can understand and extend it without reconstructing the original development context.
+
+SECTION: Intentional Organization
+
+The overall structure reflects deliberate choices rather than ad‑hoc accumulation.
+The goal is to create a research environment that feels coherent, intuitive, and professionally assembled — a space where the scientific content can stand on solid organizational ground.
