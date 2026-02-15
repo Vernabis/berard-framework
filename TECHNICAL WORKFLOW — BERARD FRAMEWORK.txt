@@ -1,0 +1,107 @@
+TECHNICAL WORKFLOW — BERARD FRAMEWORK
+
+This document describes the technical workflow used to generate figures, maintain the manuscript, and keep the repository reproducible. It outlines the sequence of operations, the tools involved, and the logic behind the workflow design.
+
+SECTION: Overview
+
+The technical workflow is built around three core principles:
+
+Reproducibility
+
+Modularity
+
+Environment independence
+
+All figures, numerical relationships, and visualizations are generated programmatically using a controlled Colab environment. The manuscript remains separate from all code, and the repository structure ensures that each component can be updated without affecting others.
+
+SECTION: Figure Generation Workflow
+
+All figures in the project are generated using a Python script executed in Google Colab. The workflow proceeds as follows:
+
+Open the Colab notebook associated with the project.
+
+Run the figure‑generation script, which produces APS‑ready vector PDFs.
+
+The script outputs all figures to the directory /content/figures_aps/.
+
+Download the resulting PDFs.
+
+Replace the corresponding files in the repository’s figures/ directory.
+
+This ensures that every figure is produced from a clean, standardized environment, avoiding local‑machine inconsistencies.
+
+SECTION: Manuscript Assembly
+
+The manuscript is written using RevTeX and follows a modular structure:
+
+The main .tex file contains only scientific narrative and equations.
+
+All figure environments and captions are stored in figures.tex.
+
+The main manuscript includes these via \input{figures.tex}.
+
+Bibliography files are maintained separately for clarity.
+
+This structure keeps the manuscript clean and prevents figure‑related clutter from obscuring the scientific content.
+
+SECTION: Directory Responsibilities
+
+Each directory in the repository has a single, well‑defined purpose:
+
+figures/ — final, publication‑ready PDFs
+
+notes/ — auxiliary documentation (history, methodology, workflow, contact info)
+
+manuscript directory — RevTeX source files
+
+code directory (if present) — figure‑generation scripts and notebooks
+
+This separation of responsibilities minimizes accidental cross‑dependencies.
+
+SECTION: Update Procedure
+
+When updating figures or manuscript content, contributors should follow this sequence:
+
+Modify or extend the Python figure‑generation code.
+
+Regenerate all affected figures in Colab.
+
+Replace the PDFs in the figures/ directory.
+
+Update captions or figure references in figures.tex if needed.
+
+Update the manuscript text only after figures are finalized.
+
+Commit changes with clear, focused messages.
+
+This ensures that the manuscript and figures remain synchronized.
+
+SECTION: Environment Control
+
+The workflow relies on Google Colab to provide:
+
+a consistent Python environment
+
+stable library versions
+
+GPU/CPU resources when needed
+
+isolation from local machine differences
+
+This avoids issues caused by package drift, OS differences, or local configuration changes.
+
+SECTION: Long‑Term Stability
+
+To maintain long‑term stability:
+
+avoid adding undocumented dependencies
+
+keep figure‑generation code minimal and explicit
+
+maintain plain‑text documentation in the notes directory
+
+preserve the modular structure of the repository
+
+update this workflow document as the project evolves
+
+These practices ensure that the project remains usable and reproducible over time.
