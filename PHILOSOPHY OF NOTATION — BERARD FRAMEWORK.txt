@@ -1,0 +1,83 @@
+PHILOSOPHY OF NOTATION — BERARD FRAMEWORK
+
+This document explains the guiding principles behind the notation used in the Berard Framework manuscript. The goal is to maintain clarity, consistency, and conceptual coherence across equations, figures, and narrative text.
+
+SECTION: Purpose of a Notation Philosophy
+
+Notation is not merely symbolic shorthand; it shapes how readers understand the structure of the theory. Clear notation reduces cognitive load, prevents ambiguity, and reinforces the conceptual hierarchy of the framework. This philosophy ensures that symbols are chosen deliberately rather than evolving haphazardly.
+
+SECTION: Consistency Across Layers
+
+The same symbols are used consistently across:
+
+manuscript equations
+
+figure labels
+
+captions
+
+explanatory text
+
+code (where applicable)
+
+This prevents the common problem of symbols shifting meaning between contexts. A reader should be able to move between the manuscript and the figures without reinterpreting notation.
+
+SECTION: Minimal Symbol Set
+
+The framework uses a minimal set of symbols to avoid clutter. Each symbol has a single, unambiguous meaning. Redundant or overlapping symbols are avoided unless they serve a clear conceptual purpose.
+
+This minimalism supports readability and reduces the risk of misinterpretation.
+
+SECTION: Physical Intuition
+
+Whenever possible, symbols are chosen to reflect physical intuition:
+
+S for the resonance invariant
+
+m_eff for effective mass
+
+BC for the boundary‑condition parameter
+
+φ for the scalar field
+
+This alignment between symbol and concept helps readers build intuition as they progress through the manuscript.
+
+SECTION: Hierarchical Structure
+
+Notation reflects the hierarchical structure of the theory:
+
+fundamental quantities use simple, single‑letter symbols
+
+derived quantities use modified or decorated versions of those symbols
+
+dimensionless combinations are explicitly marked to avoid confusion
+
+This hierarchy makes it easier to see which quantities are primary and which are constructed.
+
+SECTION: Avoiding Overloaded Symbols
+
+Commonly overloaded symbols (e.g., H, a, k) are used only when their meaning is unambiguous within the context of the framework. If a symbol has multiple standard meanings in physics, it is avoided unless the manuscript’s usage is clearly dominant.
+
+SECTION: Compatibility With Standard Literature
+
+Where possible, notation aligns with conventions in:
+
+scalar field theory
+
+cosmology
+
+modified inertia frameworks
+
+This ensures that readers familiar with the broader literature can enter the manuscript without friction.
+
+SECTION: Figure–Manuscript Alignment
+
+All figure labels and axis titles use the same notation as the manuscript. No “figure‑only” symbols are introduced. This alignment reinforces the connection between the mathematical development and the visual diagnostics.
+
+SECTION: Code–Manuscript Alignment
+
+Variable names in the figure‑generation code mirror manuscript notation where practical. This reduces translation overhead when debugging or extending the figure pipeline.
+
+SECTION: Long‑Term Stability
+
+Notation is chosen with long‑term stability in mind. Symbols are unlikely to change as the project evolves, ensuring that future revisions, appendices, or extensions remain compatible with the original manuscript.
