@@ -306,3 +306,46 @@ figures/ — all manuscript figures in PDF format
 These files together form the complete submission package for the resonance‑field framework, including the Lagrangian formulation, the Einstein–Berard relation, cosmological implications, and appendices on perturbations, dimensional analysis, and FRW background equations.
 ![Version](https://img.shields.io/badge/Version-v1.3-blue)
 [![Version](https://img.shields.io/badge/Version-v1.3-blue)](https://github.com/Vernabis/berard-framework/releases/tag/v1.3)
+Future Directions: Toward a Resono‑Invariant Framework
+The present work establishes a minimal scalar‑field model in which a dynamically stabilized background field
+
+𝑆
+0
+(
+𝑥
+)
+=
+𝜙
+(
+𝑥
+)
+𝜙
+0
+acts as a resonance‑defined scalar invariant. Small perturbations around the vacuum exhibit a characteristic frequency 
+𝑓
+0
+, and this resonance structure constrains the effective inertial and energetic response of matter. In this sense, 
+𝑆
+0
+ functions as what I refer to as a resono‑invariant: a scalar quantity whose approximate constancy along cosmological histories arises from the dynamics of the field itself.
+
+This terminology is introduced here as a working concept, not as an established category in the literature. The intent is descriptive rather than prescriptive: the invariant emerges from resonance and stability properties of the scalar field, and its physical role is encoded directly in the matter coupling. No claims are made regarding holography, topological invariance, or symmetry‑derived conservation laws.
+
+Going forward, the research program extends beyond validation of the present model into several practical and endorseable directions:
+
+Formal characterization of resono‑invariants.  
+Develop a precise mathematical definition of resonance‑defined scalar invariants, including conditions for stability, transformation properties, and their role in effective field theories.
+
+Phenomenological constraints.  
+Explore observational signatures of the resono‑invariant 
+𝑆
+0
+, including its impact on expansion history, galactic dynamics, and potential deviations from standard inertial behavior.
+
+Model generalization.  
+Investigate broader classes of scalar potentials and couplings that admit resono‑invariant behavior, and determine whether similar structures arise in multi‑field or modified‑gravity contexts.
+
+Structural interpretation.  
+Assess whether the resono‑invariant can be understood as part of a larger organizing principle for inertial or cosmological dynamics, without assuming or invoking holographic dualities.
+
+The goal is to develop a framework that is mathematically clear, empirically testable, and conceptually modest—one that grows naturally from the scalar‑field dynamics already established here. The “resono‑invariant” terminology is intended to provide a concise reference point for this ongoing work, while remaining flexible enough to evolve as the theory develops.
