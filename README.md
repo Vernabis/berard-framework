@@ -257,12 +257,13 @@ This guarantees consistent alignment, panel labeling (A), (B), etc., and APS‑s
 
 All figure captions and LaTeX `figure` environments are stored in:
 
-figures.tex
+`figures.tex`
 
 This file is included in the main manuscript via:
 
 ```latex
 \input{figures.tex}
+---
 This keeps the main .tex file clean and ensures that all figures and captions remain synchronized across all versions of the manuscript.
 
 🔁 Updating Figures
