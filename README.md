@@ -304,3 +304,4 @@ berard_group.bib — bibliography file
 figures/ — all manuscript figures in PDF format
 
 These files together form the complete submission package for the resonance‑field framework, including the Lagrangian formulation, the Einstein–Berard relation, cosmological implications, and appendices on perturbations, dimensional analysis, and FRW background equations.
+![Version](https://img.shields.io/badge/Version-v1.3-blue)
