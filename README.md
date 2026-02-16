@@ -290,3 +290,17 @@ bibliography files
 RevTeX will automatically locate and embed all figures.
 
 This workflow ensures that all figures remain consistent, reproducible, and publication‑ready throughout the development of the Berard Framework manuscript.
+📄 Manuscript
+The full manuscript submitted to Physical Review D (February 2026) is included in the repository under:
+
+Code
+manuscript/berard_framework_revtex.pdf
+This directory also contains:
+
+berard_framework_revtex.tex — the RevTeX source
+
+berard_group.bib — bibliography file
+
+figures/ — all manuscript figures in PDF format
+
+These files together form the complete submission package for the resonance‑field framework, including the Lagrangian formulation, the Einstein–Berard relation, cosmological implications, and appendices on perturbations, dimensional analysis, and FRW background equations.
