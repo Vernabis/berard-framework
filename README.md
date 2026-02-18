@@ -1,8 +1,7 @@
-
-┌────────────────────────────────────────────┐
-│        Berard Scalar‑Field Framework       │
-│     Resonance‑Defined Invariant S₀ = φ/φ₀  │
-└────────────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│     Berard Scalar‑Field Framework       │
+│  Resonance‑Defined Invariant S₀ = φ/φ₀  │
+└─────────────────────────────────────────┘
 # Berard Framework  
 A resonance‑field extension of classical mass–energy equivalence introducing a scalar‑defined invariant, a modified inertial sector, and a 0.10 Hz vacuum mode with testable cosmological, galactic, and laboratory signatures.
 
