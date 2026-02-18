@@ -1,9 +1,7 @@
-markdown
 ┌────────────────────────────────────────────┐
 │        Berard Scalar‑Field Framework       │
-│     Resonance‑Defined Invariant S₀ = φ/φ₀   │
+│     Resonance‑Defined Invariant S₀ = φ/φ₀  │
 └────────────────────────────────────────────┘
-
 # Berard Framework  
 A resonance‑field extension of classical mass–energy equivalence introducing a scalar‑defined invariant, a modified inertial sector, and a 0.10 Hz vacuum mode with testable cosmological, galactic, and laboratory signatures.
 
@@ -305,15 +303,15 @@ Search for a narrow‑band signal at 0.10 Hz using:
 ┌──────────────────────┼────────────────────────┐
 │                      │                        │
 ▼                      ▼                        ▼
-┌──────────────┐      ┌────────────────┐      ┌────────────────────┐
-│ Cosmology     │      │ Astrophysics   │      │ Laboratory Tests    │
-│ H_obs = BC H_B│      │ a₀ = 1/BC²     │      │ f₀ = 0.10 Hz        │
-└──────┬────────┘      └──────┬────────┘      └──────────┬─────────┘
+┌──────────────┐      ┌───────────────┐      ┌────────────────────┐
+│Cosmology     │      │ Astrophysics  │      │ Laboratory Tests   │
+│H_obs = BC H_B│      │ a₀ = 1/BC²    │      │ f₀ = 0.10 Hz       │
+└─────┬────────┘      └──────┬────────┘      └──────────┬─────────┘
 │                       │                           │
 ▼                       ▼                           ▼
 ┌──────────────┐      ┌────────────────┐      ┌────────────────────┐
-│ CMB / BAO     │      │ Rotation Curves│      │ Torsion Balances    │
-│ SNe / Lensing │      │ RAR / Dwarfs   │      │ Atom Interferometry │
+│CMB / BAO     │      │ Rotation Curves│      │ Torsion Balances   │
+│SNe / Lensing │      │ RAR / Dwarfs   │      │ Atom Interferometry│
 └──────────────┘      └────────────────┘      └────────────────────┘
 
 Code
