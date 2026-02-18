@@ -1,3 +1,4 @@
+
 ┌────────────────────────────────────────────┐
 │        Berard Scalar‑Field Framework       │
 │     Resonance‑Defined Invariant S₀ = φ/φ₀  │
