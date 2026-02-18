@@ -350,3 +350,169 @@ Structural interpretation.
 Assess whether the resono‑invariant can be understood as part of a larger organizing principle for inertial or cosmological dynamics, without assuming or invoking holographic dualities.
 
 The goal is to develop a framework that is mathematically clear, empirically testable, and conceptually modest—one that grows naturally from the scalar‑field dynamics already established here. The “resono‑invariant” terminology is intended to provide a concise reference point for this ongoing work, while remaining flexible enough to evolve as the theory develops.
+### Overview
+This repository contains the Berard scalar‑field framework, a theoretical model introducing a resonance‑defined invariant that modifies inertial mass, cosmological expansion, and galactic‑scale dynamics. The framework is fully falsifiable and includes clear observational and experimental pathways for validation. The summary below outlines the key predictions and the multi‑channel strategy for testing the model across cosmology, astrophysics, and precision measurement experiments.
+## Validation and Falsification Summary for the Berard Scalar‑Field Framework
+
+### Core Idea
+The Berard framework introduces a real scalar field \( \phi(x) \) whose vacuum expectation value defines a dimensionless resonance invariant:
+
+
+
+\[
+S_0 = \frac{\phi}{\phi_0}.
+\]
+
+
+
+Matter couples to this invariant through an effective inertial mass:
+
+
+
+\[
+m_{\mathrm{eff}} = m \cdot BC^2 \cdot S_0^2, \qquad BC = 1.054.
+\]
+
+
+
+This yields a generalized mass–energy relation:
+
+
+
+\[
+E = m \cdot (BC^2) \cdot S_0^2.
+\]
+
+
+
+This structure induces:
+- a cosmological rescaling of the energy density,
+- a corrected Friedmann relation,
+- a natural acceleration scale on galactic scales,
+- and a vacuum oscillation mode with frequency \( f_0 = 0.10 \,\mathrm{Hz} \).
+
+---
+
+### Key Predictions
+
+#### 1. Cosmological Rescaling
+- Effective energy density:  
+  
+
+\[
+  \rho_{\mathrm{eff}} = \rho \cdot BC^2
+  \]
+
+
+- Corrected Friedmann relation:  
+  
+
+\[
+  H_{\mathrm{obs}} = BC \cdot H_B
+  \]
+
+
+
+This implies a systematic rescaling of the inferred expansion rate and matter density.
+
+#### 2. Galactic‑Scale Acceleration
+- Natural acceleration scale:  
+  
+
+\[
+  a_0 = \frac{1}{BC^2}
+  \]
+
+
+
+This fixed scale should appear in rotation curves, the radial acceleration relation (RAR), and dwarf galaxy dynamics.
+
+#### 3. Vacuum‑Mode Frequency
+- Scalar‑field vacuum oscillation:  
+  
+
+\[
+  f_0 = 0.10 \,\mathrm{Hz}
+  \]
+
+
+
+This mode can induce narrow‑band signals in precision experiments if the scalar couples to matter or gravity.
+
+---
+
+### Validation Pathways
+
+#### (1) Cosmological Tests
+The modified expansion relation \( H_{\mathrm{obs}} = BC \cdot H_B \) can be implemented in a Boltzmann code (CLASS/CAMB) and compared with:
+
+- CMB (Planck, ACT/SPT)
+- BAO (DESI, BOSS/eBOSS)
+- Type Ia supernovae (Pantheon+)
+- Local \( H_0 \) measurements (SH0ES)
+- Large‑scale structure and weak lensing (DES, KiDS, HSC)
+
+A significant degradation of the global fit relative to \( \Lambda \)CDM would falsify the cosmological sector.
+
+#### (2) Astrophysical Tests
+The predicted acceleration scale \( a_0 = 1/BC^2 \) can be tested against:
+
+- high‑quality rotation curves (SPARC),
+- the observed RAR,
+- dwarf and low‑surface‑brightness galaxy dynamics,
+- weak lensing profiles around galaxies and clusters.
+
+Because \( a_0 \) is fixed, this is a parameter‑free test. Systematic disagreement with SPARC‑quality data would falsify this sector.
+
+#### (3) Laboratory and Experimental Tests
+The vacuum‑mode frequency \( f_0 = 0.10 \,\mathrm{Hz} \) lies in the sensitivity band of:
+
+- torsion‑balance experiments,
+- atom interferometers,
+- resonant‑mass detectors,
+- optomechanical oscillators,
+- precision accelerometers.
+
+Modeling the scalar as  
+
+
+\[
+\phi(t) \approx \phi_0 [1 + \epsilon \cos(2\pi f_0 t)]
+\]
+
+
+leads to small periodic modulations in \( m_{\mathrm{eff}} \) or related observables.  
+Targeted searches for narrow‑band signals at 0.10 Hz can detect or constrain the model.
+
+---
+
+### Programmatic Structure
+
+The project naturally decomposes into:
+
+- **Theory:** refine the scalar‑field Lagrangian, derive cosmological perturbations, galactic predictions, and experimental signatures.  
+- **Cosmology:** implement and fit the model to CMB+BAO+SNe+LSS data.  
+- **Astrophysics & Experiments:** confront the model with rotation curves/RAR and collaborate with precision‑measurement groups on 0.10 Hz searches.
+
+This multi‑channel structure makes the framework explicitly falsifiable and suitable for a focused, fundable research program.
+markdown
+┌──────────────────────────┐
+│  Berard Scalar Field     │
+│  φ(x),  S₀ = φ/φ₀        │
+└─────────────┬────────────┘
+│
+┌──────────────────────┼────────────────────────┐
+│                      │                        │
+▼                      ▼                        ▼
+┌──────────────┐      ┌────────────────┐      ┌────────────────────┐
+│ Cosmology     │      │ Astrophysics   │      │ Laboratory Tests    │
+│ H_obs = BC H_B│      │ a₀ = 1/BC²     │      │ f₀ = 0.10 Hz        │
+└──────┬────────┘      └──────┬────────┘      └──────────┬─────────┘
+│                       │                           │
+▼                       ▼                           ▼
+┌──────────────┐      ┌────────────────┐      ┌────────────────────┐
+│ CMB / BAO     │      │ Rotation Curves│      │ Torsion Balances    │
+│ SNe / Lensing │      │ RAR / Dwarfs   │      │ Atom Interferometry │
+└──────────────┘      └────────────────┘      └────────────────────┘
+
+Code
